@@ -1,7 +1,7 @@
 {
   "name": "@observablehq/sample-datasets",
   "description": "Sample datasets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Observable, Inc.",
     "url": "https://observablehq.com"
@@ -12,22 +12,32 @@
     "url": "git+https://github.com/observablehq/sample-datasets.git"
   },
   "exports": {
-    "./aapl.csv": "./data/aapl.csv",
-    "./alphabet.csv": "./data/alphabet.csv",
-    "./cars.csv": "./data/cars.csv",
-    "./citywages.csv": "./data/citywages.csv",
-    "./diamonds.csv": "./data/diamonds.csv",
-    "./flare.csv": "./data/flare.csv",
-    "./industries.csv": "./data/industries.csv",
-    "./miserables.json": "./data/miserables.json",
-    "./olympians.csv": "./data/olympians.csv",
-    "./penguins.csv": "./data/penguins.csv",
-    "./pizza.csv": "./data/pizza.csv",
-    "./weather.csv": "./data/weather.csv"
+    "./aapl.csv": "./aapl.csv",
+    "./alphabet.csv": "./alphabet.csv",
+    "./cars.csv": "./cars.csv",
+    "./citywages.csv": "./citywages.csv",
+    "./diamonds.csv": "./diamonds.csv",
+    "./flare.csv": "./flare.csv",
+    "./industries.csv": "./industries.csv",
+    "./miserables.json": "./miserables.json",
+    "./olympians.csv": "./olympians.csv",
+    "./penguins.csv": "./penguins.csv",
+    "./pizza.csv": "./pizza.csv",
+    "./weather.csv": "./weather.csv"
   },
   "files": [
-    "data/**/*.csv",
-    "data/**/*.json"
+    "aapl.csv",
+    "alphabet.csv",
+    "cars.csv",
+    "citywages.csv",
+    "diamonds.csv",
+    "flare.csv",
+    "industries.csv",
+    "miserables.json",
+    "olympians.csv",
+    "penguins.csv",
+    "pizza.csv",
+    "weather.csv"
   ],
   "publishConfig": {
     "access": "public"
