@@ -1,0 +1,32 @@
+{
+  "name": "@observablehq/sample-datasets",
+  "description": "Sample datasets",
+  "version": "1.0.0",
+  "author": {
+    "name": "Observable, Inc.",
+    "url": "https://observablehq.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/observablehq/sample-datasets.git"
+  },
+  "exports": {
+    "./aapl.csv": "./data/aapl.csv",
+    "./alphabet.csv": "./data/alphabet.csv",
+    "./cars.csv": "./data/cars.csv",
+    "./citywages.csv": "./data/citywages.csv",
+    "./diamonds.csv": "./data/diamonds.csv",
+    "./flare.csv": "./data/flare.csv",
+    "./industries.csv": "./data/industries.csv",
+    "./miserables.json": "./data/miserables.json",
+    "./olympians.csv": "./data/olympians.csv",
+    "./penguins.csv": "./data/penguins.csv",
+    "./pizza.csv": "./data/pizza.csv",
+    "./weather.csv": "./data/weather.csv"
+  },
+  "files": [
+    "data/**/*.csv",
+    "data/**/*.json"
+  ]
+}
