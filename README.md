@@ -50,3 +50,7 @@ https://observablehq.com/@observablehq/pizza-paradise-data
 NOAA/Vega
 https://www.ncdc.noaa.gov/cdo-web/datatools/records
 https://github.com/vega/vega-datasets/blob/master/scripts/weather.py
+
+## ecommerce
+Crowsourced research dataset on Amazon purchasing habits
+https://www.nature.com/articles/s41597-024-03329-6
